@@ -54,7 +54,7 @@ Cross-encoder reranks top-15 fused results
 Generator (Azure OpenAI o4-mini) produces grounded answer with page citations
 
 Pipeline Latency
-StageTimePDF ingestion + chunking (one-time)~34,000 msChromaDB semantic query~95 msBM25 lexical query~18 msCross-encoder reranking (top-15)~310 msLLM generation (o4-mini)~2,400 msEnd-to-end retrieval~1,260 ms
+StageTimePDF ingestion + chunking (one-time) 34,000 msChromaDB semantic query 95 msBM25 lexical query 18 msCross-encoder reranking (top-15) 310 msLLM generation (o4-mini) 2,400 msEnd-to-end retrieval~1,260 ms
 
 Dataset Statistics
 AttributeValueTotal PDF Pages618Pages Retained601Total Chunks Indexed2,494Unique Courses1,328Unique Departments34Unique Graduate Programs169Mean Chunk Length808.5 charsChromaDB Storage~120 MB
